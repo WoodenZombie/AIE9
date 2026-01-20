@@ -45,21 +45,21 @@ You will be required to submit a link to your GitHub, as well as screenshots of 
 Please evaluate your system on the following questions:
 
 1. Explain the concept of object-oriented programming in simple terms to a complete beginner.
-    - Aspect Tested:
+    - Aspect Tested: If the model can explain complex topics in simple words
 2. Read the following paragraph and provide a concise summary of the key points…
-    - Aspect Tested:
+    - Aspect Tested: If model is able to summarize the text and understand the general context of the text
 3. Write a short, imaginative story (100–150 words) about a robot finding friendship in an unexpected place.
-    - Aspect Tested:
+    - Aspect Tested: How does the model generates text on a given topic
 4. If a store sells apples in packs of 4 and oranges in packs of 3, how many packs of each do I need to buy to get exactly 12 apples and 9 oranges?
-    - Aspect Tested:
+    - Aspect Tested: If the model is able to solve simple mathematical problems
 5. Rewrite the following paragraph in a professional, formal tone…
-    - Aspect Tested:
+    - Aspect Tested: Model's understanding of texts' tones and ability to rephrase it based on the given request
 
 #### ❓Question #1:
 
 Do the answers appear to be correct and useful?
 ##### ✅ Answer:
-
+Depends what do we concider a correct answer. In terms of the input that we've provided to the model - answers are correct and solve the initial request. But in terms of the application itself they do not meet the expected "topic" of the conversation - it is supposed to be a mental coach, not a general question helper.
 ---
 
 #### 🏗️ Activity #2: Personal Vibe Checking Evals (Your Assistant Can Answer)
@@ -73,18 +73,95 @@ Now test your assistant with personal questions it should be able to help with. 
 - "What can I cook with [enter ingredients] in fridge."
 
 ##### Your Prompts and Results:
-1. Prompt:
-   - Result:
-2. Prompt:
-   - Result:
-3. Prompt:
-   - Result:
+1. Prompt: What should I do if I feel guilty all the time?
+   - Result: Feeling guilty all the time is exhausting. The goal isn’t to eliminate guilt altogether, but to sort “helpful” guilt from the kind that’s excessive or unfair, and then respond skillfully. Here’s a clear plan you can try.
+
+First, a quick check
+- Did I intend to harm anyone?
+- How much control did I actually have in that moment?
+- Would I judge a good friend this harshly for the same thing?
+
+If the guilt is appropriate (someone was harmed)
+- Make repair: a direct apology that includes what happened, the impact, your responsibility (no excuses), and one concrete step you’ll take to prevent it next time.
+- If you can’t apologize (not safe or not possible), write an “amends letter” you don’t send, then take a values-based action (donate time, help someone, change a habit).
+- After repair, practice letting it go: remind yourself, “I’ve taken responsibility and I’m committed to doing better.”
+
+If the guilt seems excessive or constant
+- Challenge the thought: Write the guilt thought down. List evidence for and against it. Then do the “friend test”: what would you say to a friend who felt this way?
+- Responsibility pie chart: Draw a circle. Divide it among all realistic contributors (timing, other people’s choices, limited info, your part). This usually shrinks inflated self-blame.
+- Replace “shoulds”: Change “I should always…” to “I prefer/aim to…, and it’s okay to be human.”
+- Self-compassion break (1–2 minutes): Pause and say, “This is a moment of pain. Pain is part of being human. May I be kind to myself. May I learn what I can and move forward.”
+- Defuse from the guilt story: Silently label it “the guilt story” and picture it as a headline passing by. You don’t have to argue with it or obey it.
+- Stop rumination: Set a 10–15 minute “worry/guilt time” daily. When guilt pops up outside that window, note it and postpone it to the scheduled time. Use a quick grounding exercise (5-4-3-2-1 senses or 3 slow breaths) to refocus.
+
+Address common drivers
+- Perfectionism/people-pleasing: Try the “80% rule” on tasks and see if outcomes are still fine. Practice short “no” scripts: “I can’t take that on right now,” without over-explaining.
+- Family/cultural rules: Ask, “Whose rule is this? Does it fit the person I want to be now?”
+- Guilt-tripping from others: “I hear this is important to you. I’m choosing X right now.” Repeat once; don’t debate.
+
+A simple 2-week practice plan (10–15 minutes/day)
+- Morning: Self-compassion break + set one realistic intention (e.g., “I’ll take responsibility, not extra responsibility”).
+- Midday: Responsibility pie for one guilt thought; adjust your next action accordingly.
+- Evening: 3-line journal: What triggered guilt? What I actually controlled? One small repair or release step I took.
+
+When to get extra support
+- If guilt is daily for 2+ weeks, interferes with sleep, relationships, work, or comes with anxiety/depression, a therapist can help. Approaches to ask about: CBT (cognitive restructuring, responsibility work), ACT (defusion, values), Compassion-Focused Therapy, ERP if scrupulosity/OCD-like guilt is involved, or trauma-focused therapy if guilt is tied to traumatic events.
+- If your guilt is tied to religious concerns, a trusted faith leader can offer guidance that aligns with your beliefs.
+- If you ever feel unsafe or have thoughts of harming yourself, seek immediate help from local emergency services or a crisis hotline in your country.
+
+If you’d like, tell me what you tend to feel most guilty about—past events, small everyday things, saying no, or something else—so I can tailor these steps to you.
+2. Prompt: Give me 5 short tips to prevent the burnout
+   - Result:- Set clear boundaries: define work hours and protect no-notification times.
+- Schedule real recovery: 7–9 hours sleep, micro-breaks, and one unplugged block weekly.
+- Move and breathe: short walks, stretches, and 2–3 minutes of slow breathing.
+- Prioritize and say no: focus on 1–3 key tasks; renegotiate or drop lower priorities.
+- Connect and decompress: share how you’re doing, ask for help, and add a small daily joy.
+3. Prompt: what if I want to quit my job?
+   - Result: Totally normal to feel that pull. We can either explore whether quitting is the right move or build a clean exit plan. Here’s a simple way to think it through:
+
+1) Get clear on “why”
+- List your top 3 reasons to leave (role, manager, pay, growth, culture, life fit, health).
+- For each, ask: could this be fixed in the next 1–3 months (role change, boundaries, pay review, time off)?
+
+2) Try small experiments (if you’re not in a harmful/toxic situation)
+- Request: different responsibilities, fewer meetings, remote/flex, comp review, training, team transfer, or a 1–2 week reset.
+- If the idea of asking makes you dread it—or you’ve tried and hit a wall—that’s data.
+
+3) Check feasibility and risk
+- Financial runway: savings ÷ monthly essentials = months of runway. Aim for 3–6+ months if possible.
+- Benefits/healthcare plan, PTO payout, bonus/vesting dates, non-compete or IP agreements, visa status.
+- References lined up? Updated resume/LinkedIn/portfolio?
+
+4) Timing strategy
+- Decide your “quit conditions” (e.g., if X doesn’t change by [date], I resign).
+- Consider staying through key dates (bonus/vesting) if it’s tolerable.
+- Quiet job search while employed often reduces stress.
+
+5) Exit plan (when ready)
+- Target list of 10–20 companies; start networking and interviewing.
+- Prepare a brief, positive story about leaving focused on growth and fit.
+- Resignation script: “I’ve decided to move on; my last day will be [date]. I’m grateful for [X] and I’ll ensure a smooth transition.”
+
+If it’s toxic/unsafe or harming your health:
+- Prioritize safety and a fast exit. Document incidents, limit exposure, and line up an immediate stopgap income plan if needed. Lean on trusted supports; consider speaking with a professional.
+
+Quick decision checks
+- If they doubled the pay, would you stay 6 months?
+- If you could keep your skills but switch team/manager, would you want to?
+- Which feels worse: staying 6 more months, or leaving and needing to pivot if the next thing isn’t perfect?
+
+If you want, tell me:
+- What’s pushing you out, and what’s pulling you elsewhere?
+- How urgent is this (weeks vs months)?
+- Your financial runway and any key constraints (bonus, visa, dependents)?
+- What would make staying worth it?
+- Do you prefer help crafting the ask at your current job, or building the exit/job search plan?
 
 #### ❓Question #2:
 
 Are the vibes of this assistant's answers aligned with your vibes? Why or why not?
 ##### ✅ Answer:
-
+To me the answers are a bit long, the tone of the assistant is a bit dry; I would prefer shorter answers, straight to the point with only one leading question
 ---
 
 #### 🏗️ Activity #3: Personal Vibe Checking Evals (Requires Additional Capabilities)
@@ -95,16 +172,40 @@ Now test your assistant with questions that would require capabilities beyond ba
 - "What time should I leave for the airport?"
 
 ##### Your Prompts and Results:
-1. Prompt:
-   - Result:
-2. Prompt:
-   - Result:
+1. Prompt: Is my schedule for tomorrow is too overbooked?
+   - Result: I can help you gauge it quickly. Without seeing the details, try this 60‑second check:
+
+- Do you have at least 20% of your awake time unscheduled?
+- Do you have 10–15 minutes between commitments (30+ if there’s travel)?
+- Are meals, bio breaks, and prep time explicitly accounted for?
+- Fewer than 4 hours of deep-focus work or fewer than 6 meetings?
+- No critical back-to-back items that rely on everything going perfectly?
+- A clear “cut list” you can drop if you slip by 30 minutes?
+
+If you answered “no” to two or more, tomorrow is likely overbooked.
+
+If you’d like, paste your schedule with:
+- Wake/sleep times
+- Each item’s start–end time and location (or virtual)
+- Any commutes
+- What feels high-focus vs. light
+
+I’ll audit it and suggest exactly what to move, shorten, or batch, plus where to add buffers so the day feels doable.
+2. Prompt: Is it cold outside?
+   - Result: I don’t have your location or live weather, so I can’t tell from here. If you share your city/ZIP and time, I’ll check for you.
+
+Quick ways to know now:
+- Check a weather app for the “feels like” temperature (includes wind).
+- Step outside for 15–30 seconds: notice wind on your cheeks and if you see your breath.
+- Look for flags/trees moving—wind makes it feel colder fast.
+
+If you’re unsure, dress in layers: a base layer + light sweater + windproof shell, and pack a hat/gloves. You can always peel a layer off. You’ve got this.
 
 #### ❓Question #3:
 
 What are some limitations of your application?
 ##### ✅ Answer:
-
+It doesn't have the access to the external tools, real time or location, API calls, etc.
 ---
 
 This "vibe check" now serves as a baseline, of sorts, to help understand what holes your application has.
@@ -117,14 +218,32 @@ Please make adjustments to your application that you believe will improve the vi
 
 #### 🏗️ Activity #1
 ##### Adjustments Made:
-- _describe adjustment(s) here_
+I changed the system prompt completely:
+
+
+"""
+You are a supportive, empathetic Mental Performance Coach. Your goal is to help users process their thoughts and find their own clarity.
+
+### Operational Guardrails
+1. Topic Restriction: You are strictly limited to topics concerning mental well-being, mindset, emotions, and personal growth. If a user asks about unrelated topics (e.g., coding, trivia, news), politely decline and gently steer the conversation back to their mental state.
+2. No Medical Advice: You are a coach, not a clinician. Do not diagnose mental illnesses or prescribe medications. If a user seems to be in crisis, provide a standard disclaimer urging them to contact professional services.
+
+### Tone & Style
+- Be warm and inviting, but never judgmental, demanding, or overly enthusiastic.
+- Do not use a "fix-it" tone; be a partner in their reflection.
+
+### Formatting Rules
+1. Conciseness: Keep responses short (2–4 sentences maximum).
+2. The One Question Rule: You must end every response with EXACTLY ONE open-ended, reflective question. Do not stack multiple questions.
+3. Pacing: Validate the user's feelings first, then ask your single guiding question.
+"""
 
 ##### Results:
-1. _Comment here how the change(s) impacted the vibe check of your system_
-2.
-3.
-4.
-5.
+1. Answers are concise and topic-related
+2. Tone is set for the mental coach
+3. Answers are limited to a few sentences
+4. Each answer has a following question
+5. Forbids the model to give any medical advice
 
 
 ## Submitting Your Homework
