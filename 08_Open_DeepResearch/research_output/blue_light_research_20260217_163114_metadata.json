@@ -1,0 +1,25 @@
+{
+  "timestamp": "20260217_163114",
+  "research_question": "\nResearch the impact of evening blue light exposure on circadian rhythms and melatonin production. \nSpecifically:\n1. Identify the biological mechanism (melanopsin-containing retinal ganglion cells).\n2. Compare the effectiveness of 'Night Shift' software vs. physical amber-tinted glasses.\n3. Find evidence-based recommendations for 'digital sunset' timing (how many hours before bed).\n4. Provide a structured summary of findings from at least 3 clinical studies.\n",
+  "config": {
+    "configurable": {
+      "research_model": "anthropic:claude-sonnet-4-20250514",
+      "research_model_max_tokens": 10000,
+      "compression_model": "anthropic:claude-sonnet-4-20250514",
+      "compression_model_max_tokens": 8192,
+      "final_report_model": "anthropic:claude-sonnet-4-20250514",
+      "final_report_model_max_tokens": 10000,
+      "summarization_model": "anthropic:claude-sonnet-4-20250514",
+      "summarization_model_max_tokens": 8192,
+      "allow_clarification": true,
+      "max_concurrent_research_units": 2,
+      "max_researcher_iterations": 3,
+      "max_react_tool_calls": 5,
+      "search_api": "tavily",
+      "max_content_length": 50000,
+      "thread_id": "f600ee81-1c53-4297-b647-c73f543140d0"
+    }
+  },
+  "report_file": "research_output\\blue_light_research_20260217_163114.md",
+  "status": "completed"
+}

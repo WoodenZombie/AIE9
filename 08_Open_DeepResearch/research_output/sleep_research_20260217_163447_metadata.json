@@ -1,0 +1,26 @@
+{
+  "timestamp": "20260217_163447",
+  "research_question": "\nResearch evidence-based sleep improvement strategies.\n\nFocus on:\n1. Sleep hygiene best practices\n2. How circadian rhythm affects sleep quality\n3. Practical daily routines for better sleep\n\nPlease provide a concise summary with 3-5 key recommendations backed by research.\n",
+  "config": {
+    "configurable": {
+      "research_model": "anthropic:claude-sonnet-4-20250514",
+      "research_model_max_tokens": 4000,
+      "compression_model": "anthropic:claude-sonnet-4-20250514",
+      "compression_model_max_tokens": 3000,
+      "final_report_model": "anthropic:claude-sonnet-4-20250514",
+      "final_report_model_max_tokens": 3000,
+      "summarization_model": "anthropic:claude-sonnet-4-20250514",
+      "summarization_model_max_tokens": 2000,
+      "allow_clarification": false,
+      "max_concurrent_research_units": 1,
+      "max_researcher_iterations": 1,
+      "max_react_tool_calls": 2,
+      "search_api": "tavily",
+      "max_content_length": 25000,
+      "thread_id": "6fc5e962-0dbb-4ed3-b598-2c3ce200ddc6"
+    }
+  },
+  "report_file": "research_output\\sleep_research_20260217_163447.md",
+  "status": "completed",
+  "notes": "Rate-limited configuration for responsible API usage"
+}
